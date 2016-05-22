@@ -1,0 +1,135 @@
+.container{
+	width: 1000px;
+	min-width: 1000px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+.fn-clear {
+	display: inline-block;
+	content: '';
+	clear: both
+}
+.window-conteiner{
+	width: 1000px;
+	height: 500px;
+	border: 2px solid #ccc;
+	overflow: hidden;
+	position: relative;
+}
+.input-class label{
+	display: inline-block;
+	width: 200px;
+}
+.input-class input{
+	margin: 5px;
+	height: 20px;
+}
+.button-class {
+	padding: 5px;
+	margin: 5px;
+
+	background-color: #fff;
+	border: 1px solid #666;
+	border-radius: 8px;	
+}
+.button-class:hover{
+	background-color: #666;
+	color: #fff;
+}
+.windows-childWrapper-class{
+	background: #cdf;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #95b8e7;
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px #d8e1f3;
+	-webkit-box-shadow: 2px 2px 5px #d8e1f3;
+	
+	position: relative;
+}
+.windows-childWrapper-header-class {
+	width: 100%;
+	height: 10%;
+	
+	position: absolute;
+	left: 0;
+	top: 0;
+	
+	z-index: 11;
+}
+.windows-childWrapper-header-class h3{
+	display: inline-block;
+	float: left;
+	padding-left: 30px;
+	line-height: 200%;
+	/*padding-top: 2%;*/
+	/*padding-bottom: 10px;*/
+	width: 30%;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	
+	font-size: 15px;
+	cursor: pointer;
+	position: relative;
+}
+.windows-childWrapper-header-class h3:before {
+	content: " ";
+	display: inline;
+	
+	background: url(../img/panel_tools.png);
+	background-position: 0 -16px;
+	width: 13px;
+	height: 16px;
+	
+	position: absolute;
+	left: 10px;
+	top: 8px;
+}
+.windows-childWrapper-header-class div{
+	float: right;
+	margin-right: 5%;
+	padding-top: 2%;
+
+}
+.windows-childWrapper-header-class button {
+	float: left;
+	border: none;
+	margin-left: 5px;
+	
+	width: 13px;
+	height: 16px;
+	
+	cursor: pointer;
+}
+.windows-childWrapper-header-class button:hover{
+}
+.min-class {
+	background: url(../img/panel_tools.png);
+	background-position: 0 -2px;
+}
+.max-class {
+	background: url(../img/panel_tools.png);
+	background-position: 0 -16px;
+}
+.close-class {
+	background: url(../img/panel_tools.png);
+	background-position: -16px 0;
+}
+.resize-class {
+	background: url(../img/panel_tools.png);
+	background-position: -16px -16px;
+}
+.windows-childWrapper-class textarea{
+	display: block;
+	width: 95%;
+	height: 88%;
+	
+		border: 1px solid #95b8e7;
+		
+	position: absolute;
+	left: 2.5%;
+	top: 10%;
+}
